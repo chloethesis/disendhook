@@ -16,7 +16,7 @@ username = getpass.getuser() # DISPLAY USERNAME
 
 API_URL = '' # YOUR API URL 
 
-DISCORD_WEBHOOK_URL = '' # PASTE WEBHOOK DISCORD ANDA (TANPAMENGGUNAKAN https://discordapp.com/api/webhooks/xxxx => https://discord.com/api/webhooks/xxxx
+DISCORD_WEBHOOK_URL = '' # YOUR WEBHOOK
 
 def get_api_data(query):
     try:
