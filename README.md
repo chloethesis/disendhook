@@ -10,10 +10,15 @@ Python3 ベースのプログラムなどを使用していて、出力を表示
 
 # インストール 
 
-いつも通り〜
-
 ```txt
+❯ git clone https://github.com/chloethesis/disendhook.git
+❯ cd disendhook
 ❯ pip install -r requirements.txt 
 ❯ python3 disendhook.py
 ```
 
+# WEBHOOKと入力APIを作成する
+
+```
+
+完了しました。お待ちいただきありがとうございました。
