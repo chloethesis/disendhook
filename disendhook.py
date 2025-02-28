@@ -14,9 +14,9 @@ LIME = "\033[92m"
 # DO NOT REMOVE
 username = getpass.getuser() # DISPLAY USERNAME
 
-API_URL = '' # YOUR API URL 
+API_URL = '' # YOUR API
 
-DISCORD_WEBHOOK_URL = '' # YOUR WEBHOOK
+DISCORD_WEBHOOK_URL = '' # YOUR DISCORD WEBHOOK
 
 def get_api_data(query):
     try:
