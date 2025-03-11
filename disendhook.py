@@ -3,7 +3,7 @@ import requests
 import getpass
 import json
 
-# COLOUR SETTING
+# カラー設定
 RESET = "\033[0m"
 AQUA = "\033[96m"
 RED = "\033[91m"
@@ -11,12 +11,11 @@ BOLD = "\033[1m"
 WHITE = "\033[97m"
 LIME = "\033[92m"
 
-# DO NOT REMOVE
-username = getpass.getuser() # DISPLAY USERNAME
+username = getpass.getuser() # ホスト名を表示
 
-API_URL = '' # YOUR API
+API_URL = 'https://api.hackertarget.com/hostsearch/?q=' # APIの例
 
-DISCORD_WEBHOOK_URL = '' # YOUR DISCORD WEBHOOK
+DISCORD_WEBHOOK_URL = '' # あなたのウェブフック
 
 def get_api_data(query):
     try:
@@ -51,7 +50,7 @@ def main():
     if api_data:
         send_to_discord(api_data)
     else:
-        send_to_discord("GUEST ERROR")
+        send_to_discord("エラーです")
 
     print(LIME + BOLD + f"root@{username}" + WHITE + BOLD + ":" + AQUA + BOLD + "~" + WHITE + BOLD + "$ " + WHITE + BOLD + "SUCCESSFULLY SEND VIA WEBHOOK!\n" + RESET)
 
