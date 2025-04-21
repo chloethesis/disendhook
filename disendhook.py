@@ -13,7 +13,7 @@ LIME = "\033[92m"
 
 username = getpass.getuser() # ホスト名を表示
 
-API_URL = 'https://api.hackertarget.com/hostsearch/?q=' # APIの例
+API_URL = 'https://api.host.com/' # APIの例
 
 DISCORD_WEBHOOK_URL = '' # あなたのウェブフック
 
